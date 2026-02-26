@@ -1,0 +1,38 @@
+h1 {
+    color: limegreen;
+    background-color: gray;
+}
+
+p {
+    color: gainsboro;
+    background-color: orangered;
+}
+
+button {
+    color: black;
+    background-color: cornsilk;
+}
+
+h2 {
+    color: yellowgreen;
+    background-color: black;
+}
+
+input {
+    background-color: wheat;
+    color: tomato;
+}
+
+legend {
+    color: orange;
+}
+
+.btn {
+    background-color: blue;
+    color: #fff;
+}
+
+.para {
+    background-color: #000;
+    color: #fff;
+}

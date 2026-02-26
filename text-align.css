@@ -1,0 +1,13 @@
+h1 {
+    text-align: center;
+    border: 2px solid;
+    width: 50%;
+}
+
+h3 {
+    text-align: end;
+}
+
+p {
+    text-align: start;
+}
