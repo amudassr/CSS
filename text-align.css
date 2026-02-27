@@ -5,9 +5,15 @@ h1 {
 }
 
 h3 {
-    text-align: end;
+    text-align: start;
+    font-weight: 100;
 }
 
 p {
-    text-align: start;
+    text-align: end;
+    
+}
+
+.parent{
+    font-weight: bolder;
 }

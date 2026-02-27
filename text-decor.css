@@ -1,0 +1,39 @@
+h2 {
+    text-decoration: #000 underline double;
+    letter-spacing: 15px;
+    text-align: center;
+    font-family: arial , sans-serif;
+}
+
+/* line height  */
+/* letter spacing  */
+
+p a {
+    text-decoration: none;
+}
+
+/* font size  */
+
+p {
+    line-height: 2;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+
+
+h3 {
+    line-height: 1;
+}
+
+.apna-college {
+    font-family: sans-serif;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5x;
+    text-decoration: teal underline double;
+    text-transform: capitalize;
+}
