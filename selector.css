@@ -1,0 +1,37 @@
+
+/* universal selector  */
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: wheat;
+}
+
+/* h3 {
+    color: purple;
+} */
+
+/* element selector  */
+h1,h3 {
+    color: #B92B27;
+}
+
+/* id selector  */
+#login {
+    background-color: #fff;   
+    color: #B92B27;
+}
+
+/* id selector  */
+#signup {
+    background-color: #B92B27;
+    color: #fff;
+}
+
+/* class selector  */
+.upvote {
+    background-color: green;
+    color: aliceblue;
+}
+
+#myid {
+    color: #fff 
+}
