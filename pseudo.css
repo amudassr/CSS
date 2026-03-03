@@ -1,0 +1,13 @@
+* {
+    background-color: ghostwhite;
+}
+
+h3 {
+    color: teal;
+    text-decoration: underline;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}

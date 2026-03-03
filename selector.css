@@ -64,6 +64,35 @@ p + h3 {
 /* child combinator  */
 
 div > input {
-    background-color: darkcyan;
-    
+    background-color: #B92B27;    
 }
+
+/* attribute selector  */
+input[type="text"] {
+    color: green;
+}
+
+input[type="password"] {
+    color: red;
+}
+
+input[type] {
+    background-color: ghostwhite;
+}
+
+/* pseudo class / hover  property */
+
+button:hover {
+    background-color: #000;
+    color: white;
+}
+
+h3:hover {
+    text-decoration: overline;
+}
+
+/* active property  */
+button:active {
+    background-color: hotpink;
+}
+

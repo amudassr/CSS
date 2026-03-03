@@ -1,0 +1,45 @@
+* {
+    background-color: ghostwhite;
+}
+
+/* Question No 1 */
+
+h1 {
+    color: burlywood;
+}
+
+#greet {
+    color: violet;
+}
+
+/* Question No 2 */
+
+.class {
+    color: black;
+}
+
+div p {
+    /* background-color: #000; */
+}
+
+.para {
+    background-color: blue;
+}
+
+p {
+    background-color: green;
+}
+
+/* Question No 3 */
+
+div.greetDiv .new {
+    color: yellow;
+}
+
+.greetDiv p.new {
+    color: blue;
+}
+
+.greetDiv .greet {
+    color: red;
+}
