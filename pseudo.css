@@ -7,7 +7,32 @@ h3 {
     text-decoration: underline;
 }
 
+/* hover effect  */
+
 button:hover {
     background-color: black;
     color: white;
+}
+
+/* active effect  */
+
+button:active {
+    background-color: gray;
+    color: #000;
+}
+
+/* checked effect  */
+input[id="yes"]:checked + label{
+    color: green;
+    font-weight: bold;
+}
+
+input[id="no"]:checked + label {
+    color: red;
+    font-weight: bold;
+}
+
+/* nth-of-type  */
+li:nth-of-type(2n) {
+    border: 3px solid orange;
 }
