@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesudo Element in CSS</title>
+</head>
+<style>
+    h1::first-letter {
+        color: red;
+    }
+
+    h1::selection {
+        background-color: tan;
+        color: ghostwhite;
+    }
+
+    h4::first-line {
+        color: brown;
+    }
+
+    h4::selection {
+        background-color: grey;
+        color: #fff;
+    }
+</style>
+<body>
+
+    <!-- Pseudo Element  -->
+
+    <h1>Quora</h1>
+
+    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, asperiores!</h4>
+    
+</body>
+</html>

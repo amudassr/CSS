@@ -102,7 +102,29 @@ p:active {
 }
 
 /* nth-of-type  */
-div:nth-of-type(1n) {
+div:nth-of-type(2n) {
     background-color: aliceblue;
 }
 
+/* pseudo element  */
+h1::first-letter {
+    color: black;
+}
+
+p::first-line {
+    color: green;
+}
+
+p::selection {
+    background-color: tan;
+    color: #fff;
+}
+
+/* casecading css  */
+h3 {
+    background-color: tan;
+}
+
+h3 {
+    background-color: cadetblue;
+}

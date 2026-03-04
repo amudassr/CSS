@@ -7,6 +7,8 @@ h3 {
     text-decoration: underline;
 }
 
+/* pseudo classes  */
+
 /* hover effect  */
 
 button:hover {
@@ -35,4 +37,18 @@ input[id="no"]:checked + label {
 /* nth-of-type  */
 li:nth-of-type(1n) {
     border: 3px solid orange;
+}
+
+/* pseudo element  */
+
+h3::first-letter {
+    color: #000;
+}
+
+h3::first-line {
+    color: black;
+}
+
+h3::selection {
+    background-color: lightcoral;
 }
