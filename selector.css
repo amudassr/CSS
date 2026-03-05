@@ -17,7 +17,6 @@ h1,h3 {
 /* id selector  */
 #login {
     background-color: #fff;   
-    color: #B92B27;
 }
 
 /* id selector  */
@@ -122,9 +121,9 @@ p::selection {
 
 /* casecading css  */
 h3 {
-    background-color: tan;
+    background-color: slateblue;
 }
 
 h3 {
-    background-color: cadetblue;
+    background-color: chartreuse;
 }
