@@ -14,6 +14,16 @@ h1,h3 {
     color: #B92B27;
 }
 
+/* !important keyword */
+
+h1,h3 {
+    color: #B92B27 !important;
+}
+
+h1,h3 {
+    color: orange;
+}
+
 /* id selector  */
 #login {
     background-color: #fff;   
