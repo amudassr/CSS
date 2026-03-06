@@ -1,0 +1,18 @@
+* {
+    background-color: ghostwhite;
+}
+
+/* height, width & border property  */
+div {
+    height: 200px;
+    width: 500px;
+    background-color: springgreen;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+/* border property  */
+h1 {
+    border: 2px dashed green;
+}
