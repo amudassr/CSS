@@ -6,13 +6,45 @@
 div {
     height: 200px;
     width: 500px;
-    background-color: springgreen;
+    background-color: aqua;
     border-width: 5px;
     border-style: solid;
-    border-color: black;
+    border-color: #000;
 }
 
 /* border property  */
 h1 {
     border: 2px dashed green;
+}
+
+/* border sides */
+div {
+    /* border-left: 5px dashed blue ; */
+    /* border-top: 5px dotted blue; */
+}
+
+/* border radius  */
+div {
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+/* padding property */
+div {
+    padding: 20px;
+}
+
+button {
+    border: 2px solid ;
+    border-radius: 10px;
+    padding: 5px 10px 5px;
+}
+
+/* margin property  */
+div {
+    margin: 0px 0px 20px;
+}
+
+h1 {
+    margin: 0;
 }
