@@ -3,8 +3,8 @@
 }
 
 .outer {
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     /* border: 2px solid; */
     background-color: #000;
     margin: 20px;
@@ -15,4 +15,36 @@
     width: 30%;
     background-color: #fff;
     margin-left: 20%;
+}
+
+.outside {
+    height: 300px;
+    width: 300px;
+    background-color: cornflowerblue;
+    border: 2px solid;
+    font-size: 10px;
+}
+
+.inside {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    font-size: 3em;
+    padding: 1em;
+}
+
+button {
+    font-size: 50px;
+    border-radius: 15px;
+    border: 2px solid;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+section {
+    font-size: 20px;
+}
+
+div {
+    font-size: 1rem;
 }
