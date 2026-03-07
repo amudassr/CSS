@@ -29,7 +29,7 @@ div button:hover {
 }
 
 p:nth-of-type(2n) {
-    color: yellow;
+    color: yellowgreen;
 }
 
 #mainTopic::first-letter {
@@ -37,7 +37,7 @@ p:nth-of-type(2n) {
 }
 
 #yes:checked+label {
-    color: yellowgreen;
+    color: green;
     font-weight: bold;
 }
 
