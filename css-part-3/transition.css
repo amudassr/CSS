@@ -1,0 +1,31 @@
+/* trasnition property  */
+.transition {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin-top: 20px;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease;
+}
+
+.transition:hover {
+    background-color: green;
+    border-radius: 50%;
+}
+
+
+.new {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin-top: 10px;
+    margin: 0 auto;
+    transition: margin-top 1s ease-in 0.2s;
+}
+
+.new:hover {
+    margin-top: 300px;
+    background-color: green;
+    
+}

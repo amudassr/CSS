@@ -1,0 +1,18 @@
+
+/* alpha channel property  */
+div {
+    height: 200px;
+    width: 200px;
+    background-color: #ff00c8ae;
+}
+
+/* opacity property  */
+#opacity {
+    height: 200px;
+    width: 200px;
+    background-color: #ffe100;
+    opacity: 0.5;
+}
+
+
+
