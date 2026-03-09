@@ -1,0 +1,20 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    border: 3px solid black;
+    margin: 20px;
+    display: inline-block   ;
+}
+
+/* static position  */
+#static {
+    background-color: yellow;
+}
+
+#relative {
+    background-color: yellow;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
