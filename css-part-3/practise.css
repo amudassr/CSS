@@ -1,0 +1,51 @@
+* {
+    background-color: wheat;
+}
+
+div {
+    height: 130px;
+    width: 130px;
+    background-color: orangered;
+    border: 3px solid;
+    margin: 20px;
+    display: inline-block;
+}
+
+/* static position  */
+.static {
+    position: static;
+    background-color: yellowgreen;
+}
+
+/* relative position  */
+.relative {
+    position: relative;
+    background-color: yellowgreen;
+    left: 100px;
+    top: 100px;
+}
+
+/* absolute position  */
+.absolute {
+    position: absolute;
+    background-color: yellowgreen;
+    left: 100px;
+    top: 100px;
+}
+
+/* fixed position  */
+.fixed {
+    position: fixed;
+    background-color: yellowgreen;
+    left: 100px;
+    top: 100px;
+    text-align: center;
+}
+
+/* sticky position  */
+.sticky {
+    position: sticky;
+    background-color: yellowgreen;
+    top: 100px;
+}
+
