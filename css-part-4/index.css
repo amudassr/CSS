@@ -1,16 +1,76 @@
-.container {
-    height: 300px;
-    width: 80%;
-    background-color: azure;
-    margin: 10px auto;
-    border: 2px solid black;
-    color: #fff;
-    display: flex;
-    flex-direction: column;
+* {
+    background-color: aliceblue;
 }
 
 h1 {
     text-align: center;
+}
+
+
+/* flexbox property  */
+.container {
+    height: 600px;
+    width: 60%;
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 2px solid;
+    display: flex;
+}
+
+/* flex direction property  */
+.container {
+    flex-direction: column;
+}
+
+
+/* justify content  */
+.container {
+    justify-content: flex-start;
+}
+
+/* flex wrap property  */
+.container {
+    /* flex-wrap: wrap;     */
+}
+
+
+/* align items  */
+.container {
+    /* align-items: baseline; */
+}
+
+
+/* align content  */
+.container {
+    align-content: flex-start;
+}
+
+/* align self  */
+#org {
+    align-self: flex-starts;
+}
+
+
+/* flex grow  */
+#org {
+    /* flex-basis: 50px; */
+    /* flex-grow: 1; */
+}
+
+
+#blue {
+    /* flex-basis: 400px;
+    flex-grow: 3;
+    min-width: 400px; */
+}
+
+/* flex shrink  */
+#red {
+    flex-shrink: 2;
+}
+
+#blue {
+    flex-shrink: 4;
 }
 
 .container div {
@@ -20,4 +80,3 @@ h1 {
     text-align: center;
     font-size: 1.5em;
 }
-
