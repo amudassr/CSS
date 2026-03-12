@@ -19,7 +19,7 @@ h1 {
 
 /* flex direction property  */
 .container {
-    flex-direction: column;
+    flex-direction: row;
 }
 
 
@@ -66,16 +66,21 @@ h1 {
 
 /* flex shrink  */
 #red {
-    flex-shrink: 2;
+    /* flex-shrink: 2; */
 }
 
 #blue {
-    flex-shrink: 4;
+    flex: 2;
 }
+
+/* flex shorthand  */
+ #org {
+    flex: 2 2 100px;
+ }
 
 .container div {
     height: 100px;
-    width: 300px;
+    width: 50px;
     color: #fff;
     text-align: center;
     font-size: 1.5em;
