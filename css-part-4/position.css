@@ -1,0 +1,52 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    top: 0;
+    left: 0;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: #Add8e6;
+    margin: 10px;
+}
+
+.box1 {
+    height: 100px;
+    width: 100px;
+    background-color: #Add8e6;
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+
+.parent {
+    height: 200px;
+    width: 300px;
+    border: 2px solid;
+    position: relative;
+}
+
+.child {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.sticky {
+    width: 100%;
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+}
+
+.long {
+    height: 1000px;
+}
