@@ -1,0 +1,26 @@
+* {
+    
+    font-family: arial;
+}
+
+/* grid in css  */
+.container {
+    height: 300px;
+    width: 600px;
+    background-color: olivedrab;
+    display: grid;
+}
+
+.item {
+    height: 50px;
+    width: 100px;
+    background-color: azure;
+    border: 2px solid;
+    text-align: center;
+}
+
+/* grid template  */
+.container {
+    grid-template-rows: 70px 70px 70px 70px;
+    grid-template-columns: 150px 150px 150px 150px;
+}
