@@ -12,8 +12,8 @@
 }
 
 .item {
-    height: 50px;
-    width: 100px;
+    /* height: 50px;
+    width: 100px; */
     background-color: azure;
     border: 2px solid;
     text-align: center;
@@ -21,6 +21,29 @@
 
 /* grid template  */
 .container {
-    grid-template-rows: 70px 70px 70px 70px;
-    grid-template-columns: 150px 150px 150px 150px;
+    /* grid-template-rows: 70px 70px 70px 70px; */
+    /* grid-template-columns: 150px 150px 150px 150px; */
+
+    /* 1st Syntax  */
+    /* grid-template-rows: repeat(4, 1fr); */
+    /* grid-template-columns: repeat(3, 1fr); */
+
+    /* 2nd Syntax  */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/* row gap  */
+.container {
+    /* row-gap: 10px; */
+}
+
+/* column gap  */
+.container {
+    /* column-gap: 10px; */
+}
+
+/* shorthand gap property  */
+.container {
+    grid-gap: 10px;
 }
