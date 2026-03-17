@@ -1,0 +1,63 @@
+* {
+    background-color: azure;
+}
+
+.box {
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+    /* animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 4;
+    animation-direction: alternate; */
+
+    /* animation-name: colorAnimation;
+    animation-delay: 0;
+    animation-duration: 4s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 2;
+    animation-direction: normal; */
+
+
+    animation-name: widthAnimate;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}
+
+
+@keyframes widthAnimate {
+    from {
+        width: 30px;
+    }
+
+    to {
+        width: 400px;
+    }
+}
+
+
+@keyframes fontAnimation {
+    from {
+        font-size: 20px;
+    }
+
+    to {
+        font-size: 40px;
+    }
+}
+
+@keyframes colorAnimation {
+    from {
+        background-color: green;
+    }
+
+    to {
+        background-color: blue;
+    }
+}

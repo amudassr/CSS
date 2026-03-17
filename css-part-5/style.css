@@ -75,7 +75,7 @@
 /* For Horizontal  */
 /* justify items  */
 .container {
-    justify-items: center;
+    /* justify-items: center; */
 }
 
 /* justify self  */
@@ -103,5 +103,5 @@
 
 /* place self  */
 #one {
-    place-self: start;
+    place-self: end;
 }
