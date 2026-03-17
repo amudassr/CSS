@@ -22,22 +22,47 @@
     animation-direction: normal; */
 
 
-    animation-name: widthAnimate;
+    /* animation-name: widthAnimate;
     animation-duration: 3s;
     animation-delay: 0;
     animation-timing-function: ease-in;
     animation-iteration-count: 4;
-    animation-direction: alternate;
+    animation-direction: alternate; */
+
+    animation: widthAnimate 3s ease-in 0s 4 alternate;
+
+    animation: colAnimate 10s ease-in 0s infinite alternate;
+}
+
+@keyframes colAnimate {
+    0% {
+        background-color: green;
+    }
+
+    50% {
+        background-color: black;
+    }
+
+    80% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: blue;
+    }
 }
 
 
 @keyframes widthAnimate {
     from {
         width: 30px;
+        background-color: goldenrod;
     }
 
     to {
         width: 400px;
+        background-color: brown;
+        border-radius: 15px;
     }
 }
 
