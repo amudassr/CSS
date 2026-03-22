@@ -1,0 +1,61 @@
+* {
+    font-family: Arial;
+}
+
+.box p {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}
+
+.loader {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 15px solid #f3f3f3;
+    border-top: 15px solid #000;
+    box-shadow: 0 0 15px #000;
+    animation: spin 2s linear infinite;
+}
+
+.wrapper {
+    transition: transform 0.4s ease-in;
+}
+
+.wrapper:hover {
+    transform: scale(1.2);
+}
+
+
+.slow {
+    animation-duration: 4s;
+    border-top-color: blue;
+}
+
+.fast {
+    animation-duration: 0.8s;
+    border-top-color: red;
+}
+
+.reverse {
+    animation-direction: reverse;
+    animation-duration: 2s;
+    border-top-color: green;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
